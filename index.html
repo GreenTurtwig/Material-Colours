@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/angular-material.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body ng-app="Colours" ng-cloak>
+<div class="colours">
+    <div class="circle red"><md-tooltip md-direction="right">Red</md-tooltip></div>
+    <div class="circle pink"><md-tooltip md-direction="right">Pink</md-tooltip></div>
+    <div class="circle purple"><md-tooltip md-direction="right">Purple</md-tooltip></div>
+    <div class="circle deepPurple"><md-tooltip md-direction="right">Deep Purple</md-tooltip></div>
+    <div class="circle indigo"><md-tooltip md-direction="right">Indigo</md-tooltip></div>
+    <div class="circle blue"><md-tooltip md-direction="right">Blue</md-tooltip></div>
+    <div class="circle lightBlue"><md-tooltip md-direction="right">Light Blue</md-tooltip></div>
+    <div class="circle cyan"><md-tooltip md-direction="right">Cyan</md-tooltip></div>
+    <div class="circle teal"><md-tooltip md-direction="right">Teal</md-tooltip></div>
+    <div class="circle green"><md-tooltip md-direction="right">Green</md-tooltip></div>
+    <div class="circle lightGreen"><md-tooltip md-direction="right">Light Green</md-tooltip></div>
+    <div class="circle lime"><md-tooltip md-direction="right">Lime</md-tooltip></div>
+    <div class="circle yellow"><md-tooltip md-direction="right">Yellow</md-tooltip></div>
+    <div class="circle amber"><md-tooltip md-direction="right">Amber</md-tooltip></div>
+    <div class="circle orange"><md-tooltip md-direction="right">Orange</md-tooltip></div>
+    <div class="circle deepOrange"><md-tooltip md-direction="right">Deep Orange</md-tooltip></div>
+    <div class="circle brown"><md-tooltip md-direction="right">Brown</md-tooltip></div>
+    <div class="circle grey"><md-tooltip md-direction="right">Grey</md-tooltip></div>
+    <div class="circle blueGrey"><md-tooltip md-direction="right">Blue Grey</md-tooltip></div>
+</div>
+
+<div class="divider"></div>
+
+<div class="variants">
+    <div class="heading">
+        <span class="title">Red</span>
+        <span class="close">&#10060;</span>
+    </div>
+
+    <div class="palette">
+        <div class="item fifty dark">
+            <span class="number">50</span><span class="code fiftyCode">#FFEBEE</span>
+        </div>
+        <div class="item one dark">
+            <span class="number">100</span><span class="code oneCode">#FFCDD2</span>
+        </div>
+        <div class="item two dark">
+            <span class="number">200</span><span class="code twoCode">#EF9A9A</span>
+        </div>
+        <div class="item three dark">
+            <span class="number">300</span><span class="code threeCode">#E57373</span>
+        </div>
+        <div class="item four light">
+            <span class="number">400</span><span class="code fourCode">#EF5350</span>
+        </div>
+        <div class="item five light">
+            <span class="number">500</span><span class="code fiveCode">#F44336</span>
+        </div>
+        <div class="item six light">
+            <span class="number">600</span><span class="code sixCode">#E53935</span>
+        </div>
+        <div class="item seven light">
+            <span class="number">700</span><span class="code sevenCode">#D32F2F</span>
+        </div>
+        <div class="item eight light">
+            <span class="number">800</span><span class="code eightCode">#C62828</span>
+        </div>
+        <div class="item nine light">
+            <span class="number">900</span><span class="code nineCode">#B71C1C</span>
+        </div>
+    </div>
+</div>
+
+<script src="js/angular.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-aria.min.js"></script>
+<script src="js/angular-messages.min.js"></script>
+<script src="js/angular-material.min.js"></script>
+
+<script type="text/javascript">
+window.$ = window.jQuery = require('./js/jquery-3.0.0.min.js');
+angular.module('Colours', ['ngMaterial'])
+</script>
+<script src="js/js.js"></script>
+</body>
+</html>
