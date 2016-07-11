@@ -11,7 +11,7 @@ let win;
 
 function createWindow() {
   // Create the browser window.
-  win = new BrowserWindow({width: 310, height: 680, title: "Material Colours", resizable: false, frame: false, transparent: true});
+  win = new BrowserWindow({width: 310, height: 680, title: "Material Colours", resizable: false, frame: false, transparent: true, icon: __dirname + '/icon.png'});
 
   // and load the index.html of the app.
   win.loadURL(`file://${__dirname}/index.html`);
